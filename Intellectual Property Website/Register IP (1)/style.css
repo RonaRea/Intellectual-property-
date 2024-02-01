@@ -1,0 +1,152 @@
+body{
+    width: 100%;
+    height: auto;
+}
+header{
+    width: auto;
+    border: 99px;
+
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+ h2{
+  text-align: center;  
+  color: gray;
+  font-size: 30px;
+ }
+ input{
+    display:block; 
+    margin: 0 auto;
+    position: 100px;
+    font-size: 20px;
+ }
+
+ button{
+    display:block; 
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: #22C55E;
+    border-radius: 10px;
+    width: 60%;
+    
+ }
+ #section1{
+     margin: 50px;
+ }
+
+ #section2{
+     margin: 20px;
+ }
+ #section3{
+     display: grid;
+     grid-template-areas:
+                            'category1 category2 category3 category4'
+                            'category5 category6 category7 category8'
+                            'category9 category10 category11 .'
+                            'category12 . . .';
+    
+    row-gap: 5px;
+    column-gap: 5px;
+
+     
+     
+     
+     
+ }
+ #category1{
+     grid-area:category1 ;
+     border:solid #22C55E;
+     text-align: center;
+}  
+#category2{
+    grid-area: category2 ;
+    border:solid #22C55E;
+    text-align: center;
+}
+#category3{
+    grid-area: category3 ;
+    border:solid #22C55E;
+ text-align: center;
+}
+#category4{
+    grid-area: category4;
+    border:solid #22C55E;
+     text-align: center;
+}
+#category5{
+    grid-area: category5 ;
+    border:solid #22C55E;
+     text-align: center;
+}
+#category6{
+    grid-area: category6 ;
+    border:solid #22C55E;
+     text-align: center;
+}
+#category7{
+    grid-area: category7 ;
+    border:solid #22C55E;
+     text-align: center;
+}
+#category8{
+    grid-area: category8;
+    border:solid #22C55E;
+     text-align: center;
+}
+ #category9{
+    grid-area: category9;
+    border:solid #22C55E;
+     text-align: center;
+}
+#category10{
+    grid-area: category10 ;
+    border:solid #22C55E;
+     text-align: center;
+}
+#category11{
+    grid-area: category11 ;
+    border:solid #22C55E;
+     text-align: center;
+}
+#category12{
+    grid-area: category12 ;
+    border:solid #22C55E;
+    text-align: center;
+}
+#input3{
+    padding: 50px;
+    text-align:left ;
+    
+}
+#input4{
+    padding: 100px;
+}
+#Button{
+    display:block; 
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: #22C55E;
+    border-radius: 10px;
+    width: 15%;
+}
+h4{
+    text-align: center;
+} 
+#pic1 img{
+    width: 40%;
+    height: 40%;
+    border-radius:100%;
+}
+#pic1{
+    text-align: center;
+    
+}
+#pic2{
+    text-align: center;
+}#pic2 img{
+    width: 20%;
+    height: 20%;
+    border-radius:100%;
+}

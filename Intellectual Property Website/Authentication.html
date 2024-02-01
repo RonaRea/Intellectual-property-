@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.card {
+width: 350px;
+padding: 10px;
+border-radius:20px;
+background: #fFf;
+border: none;
+height:350pX;
+position: relative
+}
+
+.container {
+height:100vh
+}
+ body {
+
+background: #eee;
+}
+_mobile-text {
+color: #98969668;
+font-size: 15px
+ }
+
+.form-control{
+margin-right: 12px
+}
+.form-control:focus {
+color: #495057;
+background-color: #fff;
+border-color:#ff8880;
+outline: 0;
+box-shadow: none
+}
+.cursor {
+cursor: pointer;
+}
+button {   
+       background-color: #4CAF50;  
+       border: none ;
+       width: 30%;  
+        color: white;   
+        padding: 10px 20px;
+        text-align: center;  
+        display: inline-block;
+        margin: 4px 2px;   
+        border-radius: 16px;   
+        cursor: pointer;   
+         }   
+    </style>
+</head>
+<body>
+    <h1>Verify Your Email</h1>
+    <div class="d-flex justify-content-center align-items-center container">
+        <div class"card py-5 px-3">
+            <H5 class="m-0>Mobile phone verification</H5><span class="mobile-text">We will send a verification code to you<b class="text-danger"></b></span>
+           <div class="d-flex flex-row mt-5"><input type="text" class="form-control" autofocus""><input type="text" class ="form-control"><input type"text" class="form-control></div> 
+           <div class="text-center mt-5"><span class=""d-block mobile-text"><br> Didn't get it? <span style="color: green;"><b>Retry</b></span> </span><span class="font-weight-bold text-danger cursor"></span></div>
+           <button type="submit" class="btn btn-primary">Continue</button>  
+        </div>
+</body>
+</html>
