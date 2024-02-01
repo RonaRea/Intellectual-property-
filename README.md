@@ -1,0 +1,1 @@
+Small businesses dont't have a easy way to register, buy, and sell their patent,trademark,IP,and logos. This website is a global marketplace where small business can register, buy and sell their IP in an easy fast way.Its easy to register. Speed procedure in Certification.Certification on a blockchain
